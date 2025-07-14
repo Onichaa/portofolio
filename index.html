@@ -188,46 +188,108 @@
         .social-icon.whatsapp-color {
             color: #25D366;
         }
+
         .social-icon.instagram-color {
             color: #E1306C;
         }
+
         .social-icon.x-twitter-color {
             color: #000000;
         }
+
         .social-icon.telegram-color {
             color: #0088CC;
         }
+
         .social-icon.github-color {
             color: #181717;
         }
+
         .social-icon.email-color {
             color: #EA4335;
         }
+
         .social-icon.saweria-color {
             color: #FF7200;
         }
 
         /* Adjust button colors to match the icon if desired (optional) */
-        .btn-whatsapp { background-color: #25D366; border-color: #25D366; color: white; }
-        .btn-whatsapp:hover { background-color: #1DA851; border-color: #1DA851; }
+        .btn-whatsapp {
+            background-color: #25D366;
+            border-color: #25D366;
+            color: white;
+        }
 
-        .btn-instagram { background-color: #E1306C; border-color: #E1306C; color: white; }
-        .btn-instagram:hover { background-color: #B82F63; border-color: #B82F63; }
+        .btn-whatsapp:hover {
+            background-color: #1DA851;
+            border-color: #1DA851;
+        }
 
-        .btn-x-twitter { background-color: #000000; border-color: #000000; color: white; }
-        .btn-x-twitter:hover { background-color: #333333; border-color: #333333; }
+        .btn-instagram {
+            background-color: #E1306C;
+            border-color: #E1306C;
+            color: white;
+        }
 
-        .btn-telegram { background-color: #0088CC; border-color: #0088CC; color: white; }
-        .btn-telegram:hover { background-color: #006AA7; border-color: #006AA7; }
+        .btn-instagram:hover {
+            background-color: #B82F63;
+            border-color: #B82F63;
+        }
 
-        .btn-github { background-color: #181717; border-color: #181717; color: white; }
-        .btn-github:hover { background-color: #333333; border-color: #333333; }
+        .btn-threads {
+            background-color: #000000;
+            border-color: #000000;
+            color: white;
+        }
 
-        .btn-email { background-color: #EA4335; border-color: #EA4335; color: white; }
-        .btn-email:hover { background-color: #C23321; border-color: #C23321; }
+        .btn-threads:hover {
+            background-color: #333333;
+            border-color: #333333;
+        }
 
-        .btn-saweria { background-color: #FF7200; border-color: #FF7200; color: white; }
-        .btn-saweria:hover { background-color: #D66000; border-color: #D66000; }
+        .btn-telegram {
+            background-color: #0088CC;
+            border-color: #0088CC;
+            color: white;
+        }
+
+        .btn-telegram:hover {
+            background-color: #006AA7;
+            border-color: #006AA7;
+        }
+
+        .btn-github {
+            background-color: #181717;
+            border-color: #181717;
+            color: white;
+        }
+
+        .btn-github:hover {
+            background-color: #333333;
+            border-color: #333333;
+        }
+
+        .btn-email {
+            background-color: #EA4335;
+            border-color: #EA4335;
+            color: white;
+        }
+
+        .btn-email:hover {
+            background-color: #C23321;
+            border-color: #C23321;
+        }
+
+        .btn-saweria {
+            background-color: #FF7200;
+            border-color: #FF7200;
+            color: white;
+        }
+
+        .btn-saweria:hover {
+            background-color: #D66000;
+            border-color: #D66000;
+        }
 
         /* Dark Theme adjustments for specific icons/buttons if needed */
         body.dark-theme .social-icon.x-twitter-color,
@@ -235,12 +297,27 @@
             color: #ecf0f1;
         }
 
-        body.dark-theme .btn-x-twitter { background-color: #ecf0f1; border-color: #ecf0f1; color: #000; }
-        body.dark-theme .btn-x-twitter:hover { background-color: #bdc3c7; border-color: #bdc3c7; }
+        body.dark-theme .btn-x-twitter {
+            background-color: #ecf0f1;
+            border-color: #ecf0f1;
+            color: #000;
+        }
 
-        body.dark-theme .btn-github { background-color: #ecf0f1; border-color: #ecf0f1; color: #000; }
-        body.dark-theme .btn-github:hover { background-color: #bdc3c7; border-color: #bdc3c7; }
+        body.dark-theme .btn-x-twitter:hover {
+            background-color: #bdc3c7;
+            border-color: #bdc3c7;
+        }
 
+        body.dark-theme .btn-github {
+            background-color: #ecf0f1;
+            border-color: #ecf0f1;
+            color: #000;
+        }
+
+        body.dark-theme .btn-github:hover {
+            background-color: #bdc3c7;
+            border-color: #bdc3c7;
+        }
     </style>
 </head>
 
@@ -256,8 +333,8 @@
 
     <section class="section text-center fade-in">
         <div class="container">
-            <img src="https://github.com/mustakimhasri.png" alt="Profile" class="profile-img mb-3" data-bs-toggle="modal"
-                data-bs-target="#profileImageModal" />
+            <img src="https://github.com/mustakimhasri.png" alt="Profile" class="profile-img mb-3"
+                data-bs-toggle="modal" data-bs-target="#profileImageModal" />
             <h1 class="fw-bold">Mustakim Hasri</h1>
             <p class="text-muted">Digital Explorer</p>
             <p>📍 Location: Indonesia 🇮🇩</p>
@@ -265,15 +342,17 @@
             <p>🧠 Tech Stack: AI Prompting, Web Tech</p>
             <p>Just a curious soul navigating the digital realm</p>
             <div class="mx-auto" style="max-width: 500px;">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3qhlB30KknSejmIvZZLjOD?si=BD6A0UgOTLG5Z2bdsbNVuQ?utm_source=generator" width="100%"
-                    height="80" frameborder="0"
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/3qhlB30KknSejmIvZZLjOD?si=BD6A0UgOTLG5Z2bdsbNVuQ?utm_source=generator"
+                    width="100%" height="80" frameborder="0"
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="">
                 </iframe>
             </div>
         </div>
     </section>
 
-    <div class="modal fade" id="profileImageModal" tabindex="-1" aria-labelledby="profileImageModalLabel" aria-hidden="true">
+    <div class="modal fade" id="profileImageModal" tabindex="-1" aria-labelledby="profileImageModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -306,16 +385,8 @@
                         <div class="card-body">
                             <i class="fab fa-instagram social-icon instagram-color"></i>
                             <h6 class="card-title">Instagram</h6>
-                            <a href="https://instagram.com/mustakim_hasri" class="btn btn-sm btn-instagram fw-bold mt-2">Follow</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3">
-                    <div class="card text-center card-hover">
-                        <div class="card-body">
-                            <i class="fab fa-x-twitter social-icon x-twitter-color"></i>
-                            <h6 class="card-title">X (Twitter)</h6>
-                            <a href="https://x.com/mustakim_hasri" class="btn btn-sm btn-x-twitter fw-bold mt-2">Follow</a>
+                            <a href="https://instagram.com/mustakim_hasri"
+                                class="btn btn-sm btn-instagram fw-bold mt-2">Follow</a>
                         </div>
                     </div>
                 </div>
@@ -324,7 +395,8 @@
                         <div class="card-body">
                             <i class="fab fa-telegram social-icon telegram-color"></i>
                             <h6 class="card-title">Telegram</h6>
-                            <a href="https://t.me/mustakim_hasri" class="btn btn-sm btn-telegram fw-bold mt-2">Message</a>
+                            <a href="https://t.me/mustakim_hasri"
+                                class="btn btn-sm btn-telegram fw-bold mt-2">Message</a>
                         </div>
                     </div>
                 </div>
@@ -333,7 +405,8 @@
                         <div class="card-body">
                             <i class="fab fa-github social-icon github-color"></i>
                             <h6 class="card-title">GitHub</h6>
-                            <a href="https://github.com/takimtod" class="btn btn-sm btn-github fw-bold mt-2">Projects</a>
+                            <a href="https://github.com/takimtod"
+                                class="btn btn-sm btn-github fw-bold mt-2">Projects</a>
                         </div>
                     </div>
                 </div>
@@ -343,7 +416,8 @@
                         <div class="card-body">
                             <i class="fas fa-envelope social-icon email-color"></i>
                             <h6 class="card-title">Email</h6>
-                            <a href="mailto:mustakimhasri@gmail.com" class="btn btn-sm btn-email fw-bold mt-2">Email Me</a>
+                            <a href="mailto:mustakimhasri@gmail.com" class="btn btn-sm btn-email fw-bold mt-2">Email
+                                Me</a>
                         </div>
                     </div>
                 </div>
@@ -352,7 +426,8 @@
                         <div class="card-body">
                             <i class="fas fa-hand-holding-heart social-icon saweria-color"></i>
                             <h6 class="card-title">Saweria</h6>
-                            <a href="https://saweria.co/mustakimhasri" class="btn btn-sm btn-saweria fw-bold mt-2">Support</a>
+                            <a href="https://saweria.co/mustakimhasri"
+                                class="btn btn-sm btn-saweria fw-bold mt-2">Support</a>
                         </div>
                     </div>
                 </div>
